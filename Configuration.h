@@ -5,7 +5,7 @@
 // Work around blown MOSFET, use D9 to switch an external MOSFET
 #define RAMPS_D8_PIN 9
 #define RAMPS_D9_PIN 8
-#define MOTHERBOARD BOARD_RAMPS_EFB
+#define MOTHERBOARD BOARD_RAMPS_14_EFB
 #define EXTRUDERS 1
 #define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
 #define TEMP_SENSOR_0 5
