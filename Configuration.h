@@ -10,7 +10,6 @@
 #define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
 #define TEMP_SENSOR_0 5
 #define TEMP_SENSOR_BED 1
-// no fan at 210, e3d clone
 #define DEFAULT_Kp 26.16
 #define DEFAULT_Ki 3.07
 #define DEFAULT_Kd 55.71
