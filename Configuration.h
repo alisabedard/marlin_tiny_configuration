@@ -9,7 +9,7 @@
 #define BUFSIZE 32
 #define CONFIGURATION_H_VERSION 010109
 #define DEFAULT_ACCELERATION        1000
-#define DEFAULT_AXIS_STEPS_PER_UNIT { 80, 80, 2267.72, 728.2 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT { 80, 80, 2267.72, 819.58 }
 #define DEFAULT_EJERK                 2
 #define DEFAULT_Kd 55.71
 #define DEFAULT_Ki 3.07
@@ -71,7 +71,7 @@
 //#define QUICK_HOME
 #define RAMPS_D8_PIN 9 //fix blown mosfet
 #define RAMPS_D9_PIN 8 //fix blown mosfet
-#define RX_BUFFER_SIZE 1024
+#define RX_BUFFER_SIZE 2048
 #define SERIAL_XON_XOFF
 //#define S_CURVE_ACCELERATION
 #define TEMP_BED_HYSTERESIS 5
@@ -84,7 +84,7 @@
 #define THERMAL_PROTECTION_HOTENDS
 #define THERMAL_PROTECTION_HYSTERESIS 10
 #define THERMAL_PROTECTION_PERIOD 45
-#define TX_BUFFER_SIZE 128
+#define TX_BUFFER_SIZE 256
 #define USE_XMAX_PLUG
 #define USE_YMAX_PLUG
 #define USE_ZMIN_PLUG
@@ -92,7 +92,7 @@
 #define WATCH_BED_TEMP_PERIOD 120
 #define WATCH_TEMP_INCREASE 4
 #define WATCH_TEMP_PERIOD 40
-#define X_BED_SIZE 190
+#define X_BED_SIZE 200
 #define X_DRIVER_TYPE  A4988
 #define X_ENABLE_ON 0
 #define X_HOME_BUMP_MM 5
@@ -101,7 +101,7 @@
 #define X_MAX_POS X_BED_SIZE
 #define X_MIN_ENDSTOP_INVERTING false
 #define X_MIN_POS 0
-#define Y_BED_SIZE 190
+#define Y_BED_SIZE 200
 #define Y_DRIVER_TYPE  A4988
 #define Y_ENABLE_ON 0
 #define Y_HOME_BUMP_MM 5
@@ -115,7 +115,7 @@
 #define Z_HOME_BUMP_MM 1
 #define Z_HOME_DIR -1
 #define Z_MAX_ENDSTOP_INVERTING false
-#define Z_MAX_POS 50
+#define Z_MAX_POS 75
 #define Z_MIN_ENDSTOP_INVERTING false
 #define Z_MIN_POS 0
 #pragma once
